@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact CenLa Innovations for technology solutions that help small to medium-sized businesses in Ruby and Central Louisiana compete and thrive.">
+    <title>Contact Us | CenLa Innovations</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="CenLa Innovations Logo">
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="industries.html" class="nav-link">Industries</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Client Login</a></li>
+                </ul>
+                
+                <button class="hamburger" id="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="hero-content text-center">
+                        <h1 class="hero-title">Get in Touch</h1>
+                        <p class="hero-subtitle">We're here to answer your questions and discuss your technology needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-6 mb-4 mb-lg-0">
+                    <h2>Contact Form</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" id="phone" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company" class="form-label">Company</label>
+                                <input type="text" id="company" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="industry" class="form-label">Industry</label>
+                                <select id="industry" class="form-control">
+                                    <option value="">Select your industry</option>
+                                    <option value="Pharmacy">Pharmacy & Medical Delivery</option>
+                                    <option value="Retail">Retail</option>
+                                    <option value="Manufacturing">Manufacturing</option>
+                                    <option value="Professional Services">Professional Services</option>
+                                    <option value="Agriculture">Agriculture</option>
+                                    <option value="Hospitality">Hospitality</option>
+                                    <option value="Education">Education</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col col-lg-6">
+                    <h2>Contact Information</h2>
+                    <p>Feel free to reach out to us directly using the information below.</p>
+                    
+                    <div class="contact-info mb-4">
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt contact-info-icon"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ruby, Louisiana</p>
+                                <p>Serving all of Central Louisiana</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone contact-info-icon"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope contact-info-icon"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@cenlainnovations.com">info@cenlainnovations.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock contact-info-icon"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                                <p>Saturday - Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Service Area</h3>
+                    <p>We proudly serve businesses throughout Ruby and Central Louisiana, including Alexandria, Pineville, Leesville, Natchitoches, and surrounding areas.</p>
+                    
+                    <div class="map-container" id="map">
+                        <!-- Google Maps will be embedded here via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-lg bg-light-gray">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find quick answers to common questions about our services</p>
+            </div>
+            
+            <div class="row">
+                <div class="col col-lg-8 offset-lg-2">
+                    <div class="card mb-4">
+                        <h3>What areas do you serve?</h3>
+                        <p>We primarily serve businesses in Ruby and throughout Central Louisiana, including Alexandria, Pineville, Leesville, Natchitoches, and surrounding communities. We can also work remotely with clients across Louisiana.</p>
+                    </div>
+                    
+                    <div class="card mb-4">
+                        <h3>How much do your services cost?</h3>
+                        <p>Our pricing varies based on the specific needs of your business and the scope of the project. We offer free initial consultations to understand your requirements and provide a detailed quote. We're committed to delivering solutions that provide strong ROI for businesses of all sizes.</p>
+                    </div>
+                    
+                    <div class="card mb-4">
+                        <h3>How long does it take to implement a solution?</h3>
+                        <p>Project timelines depend on the complexity of the solution. Simple implementations might take a few weeks, while more comprehensive systems could take several months. During our consultation, we'll provide a realistic timeline based on your specific needs.</p>
+                    </div>
+                    
+                    <div class="card mb-4">
+                        <h3>Do you offer ongoing support after implementation?</h3>
+                        <p>Yes, we provide comprehensive support and maintenance services to ensure your systems continue to run smoothly. We offer various support packages tailored to different business needs and budgets.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>How do I get started?</h3>
+                        <p>The first step is to schedule a free consultation using our contact form or by calling us directly. During this initial meeting, we'll discuss your business challenges, goals, and how our technology solutions can help you achieve them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Transform Your Business?</h2>
+            <p class="cta-subtitle">Let's discuss how we can help you compete and thrive</p>
+            <div class="cta-buttons">
+                <a href="tel:+1234567890" class="btn btn-accent btn-lg">Call Us Today</a>
+                <span class="d-none d-md-inline text-white mx-3">or</span>
+                <a href="#" class="btn btn-outline btn-lg mt-3 mt-md-0" onclick="document.getElementById('name').focus(); return false;">Send a Message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div>
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="CenLa Innovations Logo">
+                    </div>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt footer-contact-icon"></i>
+                            <span>Ruby, Louisiana</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone footer-contact-icon"></i>
+                            <span>(123) 456-7890</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope footer-contact-icon"></i>
+                            <span>info@cenlainnovations.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="footer-links-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="index.html">Home</a></li>
+                        <li class="footer-link"><a href="about.html">About Us</a></li>
+                        <li class="footer-link"><a href="services.html">Services</a></li>
+                        <li class="footer-link"><a href="industries.html">Industries</a></li>
+                        <li class="footer-link"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h4 class="footer-links-title">Services</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="services.html#custom-software">Custom Software</a></li>
+                        <li class="footer-link"><a href="services.html#ai-solutions">AI Solutions</a></li>
+                        <li class="footer-link"><a href="services.html#process-optimization">Process Optimization</a></li>
+                        <li class="footer-link"><a href="services.html#system-migration">System Migration</a></li>
+                        <li class="footer-link"><a href="services.html#data-management">Data Management</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="footer-links-title">Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest tech insights for local businesses.</p>
+                    <div class="footer-newsletter">
+                        <form class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Your Email">
+                            <button type="submit" class="newsletter-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2025 CenLa Innovations. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
